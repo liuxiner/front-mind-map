@@ -1,0 +1,9 @@
+.black { 
+  color: black;
+  border-color: black;
+}
+
+
+.outlined {
+  border: solid 1px;
+}

@@ -1,0 +1,42 @@
+.nav {
+  position: sticky;
+  top: 0;
+  padding: 50px 24px;
+  max-width: 200px;
+}
+
+.linkContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.linkItem {
+  margin-top: 16px;
+  font-size: .857rem;
+  font-weight: var(--vibe-bold);
+  line-height: var(--radio);
+  font-family: var(--vibe-family-heading);
+}
+
+.favicon {
+  display: inline-flex;
+  height: 35px;
+}
+
+.link {
+  font-family: var(--vibe-family-heading);
+  font-weight: var(--vibe-bold);
+}
+
+.iconLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 88px;
+  align-items: center;
+}
+
+
+.my-link-blue {
+  color: rgb(25, 27, 169);
+}
